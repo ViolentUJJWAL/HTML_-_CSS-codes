@@ -1,0 +1,92 @@
+<hlml> 
+<head><title>Animation</title>
+<style>
+.main{
+height: 300px;
+width: 300px;
+border: 5px solid red;
+background-color: #ffffff;
+margin: auto;
+animation-name: main-anima;
+animation-duration: 8s;
+animation-delay: 7s;
+animation-iteration-count: infinite;
+position: relative;
+}
+.box{
+height: 100px;
+width: 100px;
+text-align: center;
+font-size: 40px;
+border: 2px solid black;
+background-color: skyblue;
+position: absolute;
+top: 0px;
+left: 0px;
+animation-name: anima;
+animation-duration: 6s;
+animation-delay: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes anima{
+0%{
+top: 0px;
+left: 0px;
+background-color: skyblue;
+}
+25%{
+top: 0px;
+left: 196px;
+background-color: red;
+}
+50%{
+top: 196px;
+left:196px;
+background-color: green;
+}
+75%{
+top: 196px;
+left: 0px;
+background-color: blue;
+}
+100%{
+top: 0px;
+left: 0px;
+background-color: skyblue;
+}
+}
+@keyframes main-anima{
+0%{
+border: 5px solid black;
+background-color: #ffffff;
+}
+25%{
+border: 5px solid black;
+background-color: yellow;
+}
+50%{
+border: 5px solid black;
+background-color: blue;
+}
+75%{
+border: 5px solid black;
+background-color: green;
+}
+100%{
+border: 5px solid black;
+background-color: red;
+}
+}
+</style>
+<body>
+<div class="main"> 
+<div class="box">BOX</div>
+</div>
+</body>
+</html>/div>
+</div>
+</body>
+<script type="text/javascript">
+confirm("You are Ready for HTML Animation (animation start in 7s)");
+</script>
+</html>
